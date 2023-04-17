@@ -1,0 +1,132 @@
+body{
+    font-family: tahoma, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+#principal{ /* # pq é id*/ /*é a div*/
+    width: 1024px;
+    margin: 20px auto;
+}
+
+.topo{ /*header*/
+    background: #162028;
+    height: 50px;  /*determinar altura*/
+    position: relative;
+}
+
+.topo img{
+    margin: 7px 0 0 150px;
+}
+
+nav{
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.navegacao{/*ul*/
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    background: #162028;
+}
+
+.navegacao li{
+    display: inline-block;
+    list-style: none;
+    margin-top: 5px; 
+    padding: 13px;
+}
+
+.navegacao a{
+    display: block;
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    transition: color .3s linear;
+}
+
+.navegacao a:hover{
+    color: white;
+}
+
+.description{
+    padding: 50px 100px;
+}
+
+.description h1{
+    text-align: center;
+    font-size: 36px;
+}
+
+.description p{
+    text-align: justify;
+    color: #555;
+    line-height: 2;
+}
+
+.gallery{
+    color: #555;
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+
+.gallery-card{
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+
+.gallery-title{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16;
+    font-weight: bold;
+}
+
+.about{
+    text-align: justify;
+    color: white; /*cor da letra*/
+    background-color: #003d52;
+    padding: 100px;
+    background-image: url(/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.about h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.about p{
+    line-height: 1.5;
+    width: 70%;
+}
+
+.contact{
+    padding: 50px 0;
+    text-align: center;
+    color: #143f52;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    background: #0b171f;
+    padding: 25px;
+    color: #6f8597;
+    letter-spacing: 5px;
+    font-size: 12px;
+    margin-top: 50px;
+}
